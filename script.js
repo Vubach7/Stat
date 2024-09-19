@@ -36,7 +36,7 @@ const roleSkills = {
 };
 
 const ranks = ["F", "E", "D", "C", "B", "A", "S"];
-const guilds = ["PSHT", "RHODES", "Silverthorn", "Dragonshade", "Shadowspire"];
+const guilds = ["PSHT", "RHODES", "Silverthorn", "Dragonshade", "Shadowspire", "None", "Souls"];
 const titles = [
     "Champion of Light", "Dark Lord", "Master Swordsman", "Adept of Shadows", "Guardian of the Forest",
     "Slayer of Beasts", "Bringer of Death", "Harbinger of Doom", "Master of Elements", "Stormcaller",
@@ -44,8 +44,8 @@ const titles = [
     "Eternal Warrior", "Master of Stealth", "Undying Warrior", "Lightbringer", "Shadow Stalker",
     "Mage of the Arcane", "Grand Healer", "Ultimate Chef", "Master Blacksmith", "Savior of the Realm", "King of Shadows", "Champion of the Arena", "Silent Blade", "Storm Bringer",
     "Warden of the North", "Guardian of Souls", "Wong Ireng", "Penyuka Anak Kecil",
-    "Player Genshin", "Doctor Furry", "Kang Rasis", "Klemer", "Karbit", "Solid Solid Solid", "LET HIM COOK", "Menyala Abangku", "Pria Misterius", "Jomok", "What The Sigma", "Newbie Killer", "Weeb"];
-
+    "Player Genshin", "Doctor Furry", "Kang Rasis", "Klemer", "Karbit", "Solid Solid Solid", "LET HIM COOK", "Menyala Abangku", "Pria Misterius", "Jomok", "What The Sigma", "Newbie Killer", "Weeb", "Lore Man"];
+            
 function getRandomElement(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
 }
